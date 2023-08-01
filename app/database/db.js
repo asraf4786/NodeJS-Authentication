@@ -9,7 +9,8 @@ mongoose.set('strictQuery', false);
 //     .then((e)=>console.log("Connected to Mongodb =>> Auth-Project"))
 //     .catch((e)=>console.log("Not Connect Mongodb"))
 // }
-const DB = 'mongodb://127.0.0.1/NodeJS-Authentication';
+const DB = "mongodb+srv://asrafansari4786:<password>@cluster0.5tlwdzv.mongodb.net/?retryWrites=true&w=majority;
+    // 'mongodb://127.0.0.1/NodeJS-Authentication';
 
 mongoose.connect(DB).then(() => {
     console.log('Connection Successful');
